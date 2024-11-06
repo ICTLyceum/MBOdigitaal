@@ -32,7 +32,10 @@
                     onclick="openTab(event, 'tab5')">5. Snake</button>
                 <button
                     class="w-1/2 py-4 text-center font-medium text-gray-700 bg-gray-100 rounded-tr-lg focus:outline-none active:bg-gray-200"
-                    onclick="openTab(event, 'tab6')">6. API met FastAPI</button>
+                    onclick="openTab(event, 'tab6')">6. API met CRUD</button>
+                <button
+                    class="w-1/2 py-4 text-center font-medium text-gray-700 bg-gray-100 rounded-tr-lg focus:outline-none active:bg-gray-200"
+                    onclick="openTab(event, 'tab6')">7. API met FastAPI</button>
             </div>
             <div id="tab1" class="tabcontent p-4">
                 <?php require 'challenges-tab1.inc.php' ?>
@@ -45,6 +48,15 @@
             </div>
             <div id="tab4" class="tabcontent p-4 hidden">
                 <?php require 'challenges-tab4.inc.php' ?>
+            </div>
+            <div id="tab4" class="tabcontent p-4 hidden">
+                <?php require 'challenges-tab5.inc.php' ?>
+            </div>
+            <div id="tab4" class="tabcontent p-4 hidden">
+                <?php require 'challenges-tab6.inc.php' ?>
+            </div>
+            <div id="tab4" class="tabcontent p-4 hidden">
+                <?php require 'challenges-tab7.inc.php' ?>
             </div>
         </div>
 
